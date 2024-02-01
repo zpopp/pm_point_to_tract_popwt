@@ -1,0 +1,1 @@
+The data required for these scripts include all urban and non-urban total components data from SEDAC: https://sedac.ciesin.columbia.edu/data/set/aqdh-pm2-5-component-ec-nh4-no3-oc-so4-50m-1km-contiguous-us-2000-2019/data-download
