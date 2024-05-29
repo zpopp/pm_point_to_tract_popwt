@@ -1,1 +1,0 @@
-This folder includes code and demo data for processing data specific to Washington, D.C. This subset was selected as it is a small enough area to be run in a traditional non-cluster computing environment
