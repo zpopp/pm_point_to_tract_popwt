@@ -1,0 +1,1 @@
+Code for processing multiple years of PM2.5 exposure data onto a single geography. The geography used throughout for the aggregation of PM2.5 point data is 2010 census blocks. Aggregation is performed from the block to census block groups, tracts, and counties from 2010.
