@@ -1,4 +1,4 @@
-# Block and Tract-Level PM2.5 Aggregation
+# Block-Level PM2.5 Aggregation and Population Weighting to Larger Geographies
 
 # Project Overview
 This repository includes code for the summation of PM2.5 component measures (EC, NH4, NO3, OC, SO4) and aggregation across the urban and non-urban datasets available through SEDAC. The PM2.5 data is shared as point data. To aggregate to the block-level, an intersection is run to merge blocks to the PM2.5 data which overlaps with each block. In instances where no points intersect a block, the nearest point is assigned as the block measure. After block-level aggregation, population weighting is used to develop measures for block group, tract, and county PM2.5 exposure, weighted for the distribution of PM2.5 across the block population within each of these larger geographies. A script is also provided to merge multiple states' data into a single nationwide tract file, as is available on the Harvard Dataverse CAFE collection.
